@@ -13,48 +13,48 @@
         <div class="container">
             <div class="info">
                 <div class="question__block">
-                    <label class="question">Question</label>
+                    <label id="question" class="question">Question</label>
                     <div class="answer">
-                        <input type="radio" class="radio__button">
-                        <label class="answer1">Answer1</label>
+                        <input id="rad1"type="radio" class="radio__button">
+                        <label class="answer1" id="answer1">Answer1</label>
                     </div>
                     <div class="answer">
-                        <input type="radio" class="radio__button">
-                        <label class="answer2">Answer2</label>
+                        <input id="rad2" type="radio" class="radio__button">
+                        <label id="answer2" class="answer2">Answer2</label>
                     </div>
                     <div class="answer">
-                        <input type="radio" class="radio__button">
-                        <label class="answer3">Answer3</label>
+                        <input id="rad3" type="radio" class="radio__button">
+                        <label id="answer3" class="answer3">Answer3</label>
                     </div>
                     <div class="answer">
-                        <input type="radio" class="radio__button">
-                        <label class="answer4">Answer4</label>
+                        <input id="rad4" type="radio" class="radio__button">
+                        <label id="answer4" class="answer4">Answer4</label>
                     </div>   
                 </div>
-                <div class="timer">
+                <div id="timer" class="timer">
                     0.00
                 </div>
             </div>
         </div>
         <div class="controls">
             <div class="buttons">
-                <button class="previous">&#5130 Previous</button>
-                <button class="next">Next &#5125</button>
+                <button id="prev" class="previous">&#5130 Previous</button>
+                <button id="next" class="next">Next &#5125</button>
             </div>
-            <div class="questionNumbers">
-                <label id="question1" class="questionNumber">1</label>
-                <label id="question2" class="questionNumber">2</label>
-                <label id="question3" class="questionNumber">3</label>
-                <label id="question4" class="questionNumber">4</label>
-                <label id="question5" class="questionNumber">5</label>
-                <label id="question6" class="questionNumber">6</label>
-                <label id="question7" class="questionNumber">7</label>
-                <label id="question8" class="questionNumber">8</label>
-                <label id="question9" class="questionNumber">9</label>
-                <label id="question10" class="questionNumber">10</label>
+            <div id="paginate" class="questionNumbers">
+                <label id="question1" class="questionNumber" data-click>1</label>
+                <label id="question2" class="questionNumber" data-click>2</label>
+                <label id="question3" class="questionNumber" data-click>3</label>
+                <label id="question4" class="questionNumber" data-click>4</label>
+                <label id="question5" class="questionNumber" data-click>5</label>
+                <label id="question6" class="questionNumber" data-click>6</label>
+                <label id="question7" class="questionNumber" data-click>7</label>
+                <label id="question8" class="questionNumber" data-click>8</label>
+                <label id="question9" class="questionNumber" data-click>9</label>
+                <label id="question10" class="questionNumber" data-click>10</label>
             </div>
         </div>
     </div>
-    
+    <script src="./dist/app.js"></script>
 </body>
 </html>

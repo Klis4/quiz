@@ -1,0 +1,91 @@
+[
+    {
+        "question": "Which is the most populous continent? ",
+        "answers": [
+            {"text": "Africa", "isCorrect": false},
+            {"text": "South America", "isCorrect": false},
+            {"text": "Asia", "isCorrect": true},
+            {"text": "Australia", "isCorrect": false}
+        ]
+
+    },
+    {
+        "question": "What is the capital of New Zealand? ",
+        "answers": [
+            {"text": "Wellington", "isCorrect": true},
+            {"text": "Moscow", "isCorrect": false},
+            {"text": "Beijing", "isCorrect": false},
+            {"text": "Amsterdam", "isCorrect": false}
+        ]
+
+    },
+    {
+        "question": "Which ocean is to the north of the Russian Federation?",
+        "answers": [
+            {"text": "Indian Ocean", "isCorrect": false},
+            {"text": "Atlantic Ocean", "isCorrect": false},
+            {"text": "Pacific Ocean", "isCorrect": false},
+            {"text": "Arctic Ocean", "isCorrect": true}
+        ]
+
+    },
+    {
+        "question": "What do we call a mountain which could erupt?",
+        "answers": [
+            {"text": "Volcano", "isCorrect": true},
+            {"text": "Hill", "isCorrect": false},
+            {"text": "Mountain", "isCorrect": false},
+            {"text": "Grenade", "isCorrect": false}
+        ]
+
+    },
+    {
+        "question": "In which country is Mount Everest?",
+        "answers": [
+            {"text": "Belarus", "isCorrect": false},
+            {"text": "Spain", "isCorrect": false},
+            {"text": "India", "isCorrect": false},
+            {"text": "Nepal", "isCorrect": true}
+        ]
+
+    },
+    {
+        "question": "How many rings are there in the Olympic Games symbol?",
+        "answers": [
+            {"text": "4", "isCorrect": false},
+            {"text": "5", "isCorrect": true},
+            {"text": "11", "isCorrect": false},
+            {"text": "3", "isCorrect": false}
+        ]
+
+    },
+    {
+        "question": "What is the longest running race in the Olympic Games?",
+        "answers": [
+            {"text": "Beer Run", "isCorrect": false},
+            {"text": "Running around the house", "isCorrect": false},
+            {"text": "Marathon", "isCorrect": true},
+            {"text": "Running with obstacles", "isCorrect": false}
+        ]
+
+    },
+    {
+        "question": "In boxing, what do the letters K.O. stand for?",
+        "answers": [
+            {"text": "Knock out", "isCorrect": true},
+            {"text": "Key owner", "isCorrect": false},
+            {"text": "Keep off", "isCorrect": false},
+            {"text": "Kind out", "isCorrect": false}
+        ]
+
+    },
+    {
+        "question": "Who invented the telephone?",
+        "answers": [
+            {"text": "Steve Jobs", "isCorrect": false},
+            {"text": "Alexandre Bell", "isCorrect": true},
+            {"text": "Lei Jun", "isCorrect": false},
+            {"text": "William Shakespeare", "isCorrect": false}
+        ]
+    }
+]

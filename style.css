@@ -10,7 +10,7 @@ body {
     max-height: 100vh;
 }
 
-*, *:after, *:before {
+*{
     box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ body {
     width: 100%;
     max-width: 100vh;
     margin: 0 auto;
-    padding: 10%;
+    padding: 6%;
 }
 
 /* Timer */
@@ -44,8 +44,6 @@ body {
     line-height: 19vh;
 }
 
-/* Radio Button */
-
 /* Info */
 .info {
     width: 100%;
@@ -57,13 +55,13 @@ body {
 }
 
 .question {
-    font-size: 6vh;
+    font-size: 4vh;
     color: #f6edff;
 }
 
 .answer {
     padding: 1vh;
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 .radio__button {
@@ -115,12 +113,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .questionNumber {
     font-size: 4vh;
-    margin: 5vh 1vh;
+    margin: 2.5vh 0.5vh;
 
     height: 7vh;
 
