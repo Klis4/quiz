@@ -1,0 +1,6 @@
+{
+    "questionsQuantity": 5,
+        "time": { "min": 2, "sec": 11 },
+        "questionsToSuccess": 3,
+        "timerOn": true
+}
