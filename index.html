@@ -10,48 +10,49 @@
 </head>
 <body>
     <div class="main">
-        <div class="container">
+        <div id="container" class="container">
             <div class="info">
-                <div class="question__block">
-                    <label id="question" class="question">Question</label>
+                <div id="questionsBlock" class="questions__block">
+                    <span id="question" class="question">Question</span>
                     <div class="answer">
-                        <input id="rad1"type="radio" class="radio__button">
-                        <label class="answer1" id="answer1">Answer1</label>
+                        <input id="rad1" type="radio" name="radio__button" class="radio__button" value="" radio-click>
+                        <label for="rad1" class="answer1" id="answer1">Answer1</label>
                     </div>
                     <div class="answer">
-                        <input id="rad2" type="radio" class="radio__button">
-                        <label id="answer2" class="answer2">Answer2</label>
+                        <input id="rad2" type="radio" name="radio__button" class="radio__button" value="" radio-click>
+                        <label for="rad2" id="answer2" class="answer2">Answer2</label>
                     </div>
                     <div class="answer">
-                        <input id="rad3" type="radio" class="radio__button">
-                        <label id="answer3" class="answer3">Answer3</label>
+                        <input id="rad3" type="radio" name="radio__button" class="radio__button" value="" radio-click>
+                        <label for="rad3" id="answer3" class="answer3">Answer3</label>
                     </div>
                     <div class="answer">
-                        <input id="rad4" type="radio" class="radio__button">
-                        <label id="answer4" class="answer4">Answer4</label>
+                        <input id="rad4" type="radio" name="radio__button" class="radio__button" value="" radio-click>
+                        <label for="rad4" id="answer4" class="answer4">Answer4</label>
                     </div>   
                 </div>
                 <div id="timer" class="timer">
-                    0.00
+                    &#8734
                 </div>
             </div>
+            <div class="controls">
+                    <div class="buttons">
+                        <button id="prev" class="previous">&#5130 Previous</button>
+                        <button id="next" class="next">Next &#5125</button>
+                    </div>
+                    <div id="pagination" class="questionNumbers"></div>
+                </div>
         </div>
-        <div class="controls">
-            <div class="buttons">
-                <button id="prev" class="previous">&#5130 Previous</button>
-                <button id="next" class="next">Next &#5125</button>
-            </div>
-            <div id="paginate" class="questionNumbers">
-                <label id="question1" class="questionNumber" data-click>1</label>
-                <label id="question2" class="questionNumber" data-click>2</label>
-                <label id="question3" class="questionNumber" data-click>3</label>
-                <label id="question4" class="questionNumber" data-click>4</label>
-                <label id="question5" class="questionNumber" data-click>5</label>
-                <label id="question6" class="questionNumber" data-click>6</label>
-                <label id="question7" class="questionNumber" data-click>7</label>
-                <label id="question8" class="questionNumber" data-click>8</label>
-                <label id="question9" class="questionNumber" data-click>9</label>
-                <label id="question10" class="questionNumber" data-click>10</label>
+        <div id="modal" class="modal">
+            <div id="modalContent" class="modalContent">
+                <label id="text" class="text">Welcome to QUIZ :)</label></br>
+                <label id="time" class="inform">
+                    Time:<span id="timeValue" class="count"> &#8734</span>
+                </label></br>
+                <label id="quantityQuestions" class="inform">
+                    Questions:<span id="questCount" class="count"> 0</span>
+                </label></br>
+                <label id="button" class="button">Start</label>
             </div>
         </div>
     </div>

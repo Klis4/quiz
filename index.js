@@ -1,10 +1,5 @@
-import { randQuestions } from './src/js/quizEdit';
-import { questsQuantity } from './src/js/workWithJSON';
-import load from './src/js/load'; // it must be fixed!!!!
+import start from './src/js/start';
+import main from './src/js/main';
 
-const questionsOrder = randQuestions(questsQuantity());
-console.log(questionsOrder);
-
-load(questionsOrder);
-
-export { questionsOrder as questsOrder };
+start();
+main();

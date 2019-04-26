@@ -1,7 +1,23 @@
 import json from '../data.json';
+import settings from '../config.json';
 
 function questionsQuantity() {
   return json.length;
+}
+
+/*
+  Read and return settings file
+*/
+function readSettings() {
+  const obj = {};
+  obj.questionsQuantity = settings.questionsQuantity;
+  obj.time = {};
+  obj.time.min = settings.time.min;
+  obj.time.sec = settings.time.sec;
+  obj.questionsToSuccess = settings.questionsToSuccess;
+  obj.timerOn = settings.timerOn;
+
+  return obj;
 }
 
 /*
@@ -12,10 +28,10 @@ function readQuestion(i) {
   obj.question = json[i].question;
   obj.answers = [];
 
-  for (let j = 0; j < json[i].answers.length; j += 1) {
+  json[i].answers.forEach((elem, j) => {
     obj.answers.push({ text: json[i].answers[j].text, isCorrect: !!json[i].answers[j].isCorrect });
-  }
+  });
   return obj;
 }
 
-export { readQuestion as readQuest, questionsQuantity as questsQuantity };
+export { readQuestion as readQuest, questionsQuantity as questsQuantity, readSettings };

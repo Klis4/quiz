@@ -17,6 +17,7 @@ body {
 .main {
     width: 100%;
     height: 100vh;
+    
 }
 
 /* Container */
@@ -25,11 +26,17 @@ body {
     max-width: 100vh;
     margin: 0 auto;
     padding: 6%;
+    display: none;
 }
 
-/* Timer */
-.timer {
+/* 
+    Timer 
     font-size: 6vh;
+    line-height: 19vh;
+
+*/
+.timer {
+    font-size: 10vh;
     color: #dd6d2a;
 
     border-style: solid;
@@ -62,6 +69,12 @@ body {
 .answer {
     padding: 1vh;
     font-size: 3.5vh;
+    transition: color 0.2s linear;
+}
+
+.answer:hover {
+    color: #f2a62b;
+
 }
 
 .radio__button {
@@ -109,6 +122,7 @@ body {
 
 .questionNumbers {
     color: #bba6c1;
+    font-size: 4vh;
     
     display: flex;
     justify-content: center;
@@ -125,6 +139,73 @@ body {
 }
 
 .questionNumber:hover {
-    color: orange;
+    font-size: 6vh;
+}
+
+/* Modal */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height:100%;
+
+    overflow: auto;
+
+    background-color: #000000;
+    opacity: 0.8;
+    
+}
+/* width: 50vw;
+    height: 50vh;
+    */
+.modalContent {
+    text-align: center;
+
+    color: #f9c5f5;
+
+    position: fixed;
+    left: 25vw;
+    top: 25vh;
+    
+
+
+}
+
+.text {
+    font-size: 10vh;
+}
+
+.inform {
     font-size: 5vh;
+    color: #087c00;
+}
+
+.count {
+    font-size: 4vh;
+    color: orange;
+
+    transition: color 0.2s linear, font-size 0.2s linear; 
+}
+
+.count:hover {
+    font-size: 4.2vh;
+    color: #f2a62b;
+
+}
+
+.button {
+    color: #dd6d2a;
+    font-size: 8vh;
+    border-radius: 1vh;
+    padding: 0.5vh;
+
+    transition: color 0.2s linear, font-size 0.2s linear;
+}
+
+.button:hover {
+    color: #f2a62b;
+    font-size: 10vh;
 }
